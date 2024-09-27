@@ -3,9 +3,3 @@ let y = ()=>{
 }
 
 y();
-
-const x = ()=>{
-    console.log("Data Representaion and Querying");
-}
-
-x();
