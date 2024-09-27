@@ -16,10 +16,19 @@ let addTask = (task)=>{
     console.log(Tasks.length);
 }
 
+addTask("Amy");
+addTask("Jenny");
 
+
+let listAllTasks = ()=>{
+    Tasks.forEach((element)=>{
+        console.log(element);
+    })
+}
+
+listAllTasks();
 
 
 //calling the add task function
-addTask("Amy");
 //deleting
 //Tasks.splice(index,1);
